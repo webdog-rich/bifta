@@ -6,7 +6,7 @@ body {
   font-size: 26px;
 }
 
-#bg-video {
+.bg-video {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -57,6 +57,7 @@ body {
   font-size: 40px;
   top: 50%;
   position: relative;
+  cursor: pointer;
 }
 
 .bifta-header {
@@ -66,6 +67,7 @@ body {
   font-size: 40px;
   top: 50%;
   position: relative;
+  cursor: pointer;
 }
 
 .crack {

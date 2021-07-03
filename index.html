@@ -8,17 +8,26 @@
     <meta name="description" content="Bifta" />
     <meta name="author" content="WebDog" />
 
-    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+    <link rel="stylesheet" href="./css/styles.css?v=1.0" />
   </head>
 
   <body>
-    <video autoplay muted loop id="bg-video">
-      <source src="assets/grunge-bg.mp4" type="video/mp4" />
+    <video autoplay muted loop class="bg-video">
+      <source src="./assets/grunge-bg.mp4" type="video/mp4" />
+    </video>
+    <video
+      autoplay
+      muted
+      loop
+      class="bg-video bacteria"
+      style="visibility: hidden"
+    >
+      <source src="./assets/bacteria-bg-min.mp4" type="video/mp4" />
     </video>
     <div id="content">
       <div class="bifta-header">BIFTA.co.nz</div>
       <div class="break-glass container">
-        <img src="/assets/break-glass.png" class="bg-image main animated" />
+        <img src="./assets/break-glass.png" class="bg-image main animated" />
         <div class="glass-area"></div>
       </div>
     </div>

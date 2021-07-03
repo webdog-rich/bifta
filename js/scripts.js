@@ -2,6 +2,22 @@ const glassArea = document.querySelector(".glass-area");
 
 let glassClicks = 0;
 
+document.querySelector(".bifta-header").addEventListener("click", function (e) {
+  anime({
+    targets: ".bacteria",
+
+    easing: "easeInOutQuad",
+    opacity,
+    duration: 500,
+    begin: function () {
+      document.querySelector(".bacteria").style.visibility = "visible";
+    },
+    complete: function () {
+      document.querySelector(".bacteria").style.visibility = "hidden";
+    },
+  });
+});
+
 glassArea.addEventListener("click", function (e) {
   addCracksToGlass(e);
   glassClicks++;
